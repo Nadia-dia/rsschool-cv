@@ -69,8 +69,6 @@ const sumDigits = (num) => {
   - [Pre-course Frontend Developer](https://pre.hexlet.io/frontend/?utm_source=hexlet&utm_medium=referral&utm_campaign=base-frontend&utm_term=from_section_pre&roistat_visit=7719883&_gl=1*sssnug*_ga*ODI5NjA1NDMuMTY3OTMzOTQ3NA..*_ga_PM3R85EKHN*MTY3OTMzOTQ3My4xLjEuMTY3OTMzOTY0Ny40Ny4wLjA.#after)
   - [Introduction to programming](https://ru.hexlet.io/courses/introduction_to_programming)
 
-**********
-
 ## **Languages:**
 
 * English - Upper Intermediate
