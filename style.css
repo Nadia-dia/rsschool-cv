@@ -16,14 +16,14 @@ body {
 }
 
 .container {
-    border: 1px solid #c98982;
     max-width: 1440px;
     margin: 0 auto;
 }
 
 /* header */
 
-.header {
+.header,
+.footer {
     background-color: #c98982;
 }
 
@@ -84,10 +84,35 @@ body {
 
 .section{
     width: 50%;
+    border-bottom: 0.5px solid #c98982;
 }
 
 @media(max-width: 728px){
     .section{
         width: 100%;
     }
+}
+
+/* Footer */
+
+.footer-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item,
+.github-link {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;                           ;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.github-link:hover {
+    color: #dfd9d9;
 }
