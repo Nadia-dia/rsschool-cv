@@ -48,3 +48,46 @@ body {
 .nav-link:hover {                       
     color: #dfd9d9;
 }
+
+/* Main */
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #c98982;
+}
+
+.list {
+    list-style: circle;
+}
+
+.contact-link,
+.project-link {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;                           ;
+    color: #c98982;
+    transition: 0.3s;
+}
+
+.contact-link:hover,
+.project-link:hover {                       
+    color: #ECB3AD;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 50%;
+}
+
+@media(max-width: 728px){
+    .section{
+        width: 100%;
+    }
+}
